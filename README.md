@@ -1,0 +1,2 @@
+# Event_Management_System
+TUBITAK-BILGEM-YTE INTERNSHIP PROJECT
