@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width : 100%;
+    max-height: 100%;
+    display: block;
+}
+
+section, article, aside, footer, header, nav {
+    display: block;
+}
+
+.site-admin-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+#background{
+    display: block;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.main-admin-page{
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+
+}
+
+.main-admin-page header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: none;
+
+}
+
+.main-admin-page header img{
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.h1s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-admin-page h1{
+    margin: 0;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-family: 'Exo 2', serif;
+    font-size: 40px;
+}
+
+.new-list-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.new-list-buttons button{
+    margin: 40px;
+    width: 40vw;
+    height: 30vh;
+    font-size: 50px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Exo 2', serif;
+    color: white;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-radius: 150px;
+    border-color: white;
+    border-style: solid !important;
+
+}
+
+.new-list-buttons button:hover{
+    background: white;
+    color: black;
+
+
+}
+
+.register-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.register-inputs-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25vw;
+}
+
+
+
+
+.labels{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.labels input{
+    margin: 5px;
+    width: 12vw;
+    height: 3.5vh;
+    font-size: 18px;
+    color: grey;
+
+
+}
+
+.labels label{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.add-event-button-admin{
+    width: 12vw;
+    font-size: 18px;
+    height: 10vh;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Exo 2', serif;
+    color: white;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    border-radius: 150px;
+    border-color: white;
+    border-style: solid !important;
+}
+
+.add-event-button-admin:hover{
+    background: white;
+    color: black;
+}
+
+.list-events{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-events-div{
+
+    width: 90%;
+    margin-left: 40px ;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-events-div-events{
+
+    width: 46vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center  ;
+
+}
+
+
+.list-events-div-events h2{
+    width: 25vw;
+}
+.list-events-div-events-print{
+    width: 6vw;
+}
+
+
+.update-button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
